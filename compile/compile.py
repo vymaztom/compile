@@ -17,6 +17,7 @@ file_flags = "flags.txt"
 file_output = "output.txt"
 file_surse = "surse.txt"
 
+os.chdir("compile")
 compiler = readFile(file_compiler)
 flags = readFile(file_flags)
 output = readFile(file_output)
