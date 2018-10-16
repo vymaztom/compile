@@ -1,0 +1,2 @@
+gcc -E main.c > main.i  # write all code before compile
+gcc -S main.c           # create main.s asembler file
